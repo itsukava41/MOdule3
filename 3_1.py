@@ -1,5 +1,4 @@
 calls = 0
-
 def count_couls():
     global calls
     calls += 1
