@@ -8,7 +8,6 @@ def get_multiplied_digits(number):
         return first
     else:
         return first * get_multiplied_digits(int(str_number[1:]))
-
 result1 = get_multiplied_digits(402030)
 print(result1)
 result2 = get_multiplied_digits(40203)
